@@ -1,0 +1,16 @@
+{
+    "name": "spaceflora/example-php-bully-card-game",
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Game\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Game\\Tests\\": "tests/"
+        }
+    }
+}
